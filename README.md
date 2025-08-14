@@ -62,12 +62,7 @@ streamlit run app.py
 
 ---
 
-## 📷 Preview
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=App+Preview)
-*(Replace with actual screenshot or GIF of your app)*
-
----
 
 ## 🛠 Requirements
 
