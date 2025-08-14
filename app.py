@@ -30,7 +30,7 @@ input_dict = {
 }
 
 if st.button("Predict Success"):
-    model.train_model(pd.read_csv("data/movies_100k.csv"))
+    model.train_model(pd.read_csv("movies_100k.csv"))
     result = model.predict_single(pd.DataFrame([input_dict]))
     label = "🎉 Hit!" if result['prediction'][0] == 1 else "❌ Flop"
     st.success(f"Prediction: {label}")
