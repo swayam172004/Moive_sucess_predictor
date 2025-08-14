@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from src import model
+import model
 
 st.title("🎬 Movie Success Predictor")
 
