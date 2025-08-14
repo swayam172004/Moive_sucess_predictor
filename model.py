@@ -1,6 +1,6 @@
 import joblib
 from sklearn.ensemble import RandomForestClassifier
-import preprocess
+from preprocess import preprocess
 
 def train_model(df):
     X_scaled, y, scaler, label_enc = preprocess(df)
